@@ -1,0 +1,169 @@
+// out: ../css/medias.css, compress: true
+
+@import "default.less";
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+   @media only screen
+	and (max-width : 1200px) {
+
+		.img-post{
+			margin-left: 0px;
+			padding-top: 105px;
+		}
+
+	}
+
+   @media only screen
+	and (max-width : 991px) {
+
+		.cta{
+			position: relative;
+			width: 100%;
+			border-radius: 0
+		}
+
+		.navbar-nav li a{
+			font-size: 12px;
+		}
+
+		.navbar-nav li a:after{
+			font-size: 40px;
+		}
+
+		.navbar .cta-top{
+			width: auto;
+
+			.text,.phone{
+				display: none;
+			}
+
+			i{
+				margin: 30px 0px 0px -20px;
+				float: left;
+			}
+
+		}
+		
+		// SOCIAL Menu
+	   .social{
+			right: 95px;
+		}
+	}
+
+   @media only screen
+	and (max-width : 767px) {
+
+		.navbar-collapse{
+			background: #000;
+			margin: 0;
+
+			.navbar-nav li{
+				border-bottom: 1px solid @grey-normal;
+
+			}
+
+			.navbar-nav li a{
+				padding: 10px 0px;
+				font-size: 14px;
+			}
+
+			.navbar-nav li a:after{
+				display: none;
+			}
+
+			.navbar-nav li.active a{
+				background: @red;
+			}
+		}
+
+		// SOCIAL Menu
+	   .social{
+			display: none;
+		}
+
+		.service-item .wrap-image{
+			width: 100%;
+
+			 .service{
+				 width: 50%;
+			 }
+		}
+
+		.service-item .table-prices{
+			width: 100%;
+		}
+
+		.wrapper-location .contact{
+			text-align: center;
+		}
+
+		#blog .no-thumb{
+	   	   margin-top: 150px;
+   	   }
+
+   	   .img-post{
+	   	   padding-top: 90px;
+   	   }
+
+	}
+
+	@media only screen
+	and (max-width : 500px) {
+
+		h2{
+			font-size: 48px;
+		}
+
+		h2:after{
+			font-size: 200px;
+		}
+
+		h3{
+			font-size: 24px;
+		}
+
+		p{
+			font-size: 14px;
+		}
+
+		.service-item .wrap-image .service h4{
+			font-size: 24px;
+
+		}
+
+		// SOCIAL Menu
+	    .social{
+			display: none;
+		}
+		
+		.welcome p{
+			font-size: 36px;
+			line-height: 36px;
+		}
+
+	}
+
+	@media only screen
+	and (max-width : 321px) {
+
+		.navbar-brand{
+			width: 60%;
+			margin-top: 15px;
+		}
+
+		iframe{
+			display: none;
+		}
+
+	}
+
+
+
+
+
+
+
+
