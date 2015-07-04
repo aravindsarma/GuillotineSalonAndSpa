@@ -34,7 +34,7 @@ h2 {
 	width: 100%
 }
 
-h2:after {
+/* h2:after {
 	content: "\E806";
 	color: #f30;
 	font-size: 300px;
@@ -42,7 +42,7 @@ h2:after {
 	display: block;
 	width: 100%;
 	line-height: 50px
-}
+} */
 
 h3 {
 	font-family: 'Arvo', serif;
@@ -59,7 +59,7 @@ h4 {
 	margin: 0
 }
 
-h4:after {
+/* h4:after {
 	content: "\E80C";
 	color: #fff;
 	font-size: 60px;
@@ -67,7 +67,7 @@ h4:after {
 	display: block;
 	width: 100%;
 	line-height: 50px
-}
+} */
 
 p {
 	font-family: 'Bree Serif', serif;
@@ -189,18 +189,20 @@ b, strong {
 	visibility: hidden
 }
 
-.navbar-nav li.active a, .navbar-nav li.active a:hover, .navbar-nav li a:hover
-	{
+.navbar-nav li.active a, 
+.navbar-nav li.active a:hover, 
+.navbar-nav li a:hover {
 	background: none;
-	color: #f30
+	/* color: #f30; */
 }
 
 .navbar-nav li.active a {
 	color: #F1DF98;
 }
 
-.navbar-nav li.active a:after, .navbar-nav li.active a:hover:after,
-	.navbar-nav li a:hover:after {
+.navbar-nav li.active a:after, 
+.navbar-nav li.active a:hover:after,
+.navbar-nav li a:hover:after {
 	color: #f30;
 	visibility: hidden
 }
@@ -292,10 +294,10 @@ b, strong {
 }
 
 .welcome p {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 60px;
-	line-height: 60px
+	font-size: 40px;
+/* 	line-height: 60px */
 }
 
 #step1, #step2, #step3 {
@@ -543,10 +545,10 @@ b, strong {
 	width: 110px;
 	height: 110px;
 	border-radius: 110px;
-	background: #f30;
+	background: #F1DF98;
 	line-height: 110px;
 	text-align: center;
-	color: #fff;
+	/* color: #000; */
 	font-size: 14px;
 	position: relative;
 	margin-bottom: 5px
@@ -603,7 +605,7 @@ to {
 	margin-bottom: 20px
 }
 
-#stylists .stylist a {
+#stylists .stylist .a {
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
@@ -613,7 +615,7 @@ to {
 	background: rgba(0, 0, 0, 0.6)
 }
 
-#stylists .stylist a:hover {
+#stylists .stylist .a:hover {
 	opacity: 1;
 	transition: opacity 1s ease-out;
 	-moz-transition: opacity 1s ease-out;
@@ -625,8 +627,13 @@ to {
 	color: #fff
 }
 
-#stylists .stylist h4:after {
+/* #stylists .stylist h4:after {
 	line-height: 30px
+} */
+
+#stylists .stylist b {
+	font-family: 'Arvo', serif;
+	font-weight: 400
 }
 
 .wrapper-location {
@@ -639,7 +646,7 @@ to {
 }
 
 .wrapper-location h3 {
-	color: #f30;
+	color: #F1DF98;
 	font-size: 18px;
 	margin: 0;
 	margin-bottom: 5px
@@ -647,7 +654,7 @@ to {
 
 .wrapper-location h4 {
 	font-size: 14px;
-	color: #f30;
+	color: #F1DF98;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	margin-bottom: 10px
@@ -696,7 +703,7 @@ to {
 }
 
 .required {
-	color: #f30;
+	color: #F1DF98;
 	font-size: 12px
 }
 
@@ -963,4 +970,8 @@ to {
 #profile #profile p {
 	font-size: 14px;
 	line-height: 24px
+}
+
+.not-active {
+   cursor: default;
 }
