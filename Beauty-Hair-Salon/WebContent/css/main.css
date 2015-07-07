@@ -412,20 +412,28 @@ font-family: 'Raleway', sans-serif;
 }
 
 .service-item .wrap-image {
-	width: 66%;
+	width: 55%;
 	float: left
 }
 
-.service-item .wrap-image .service {
-	width: 33%;
+.service-item .wrap-image .service1 {
+	width: 20%;
 	min-height: 350px;
-	height: 350px;
+	height: 650px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff
+}
+
+.service-item .wrap-image .service {
+	width: 20%;
+	min-height: 350px;
+	height: 450px;
 	background: rgba(0, 0, 0, 0.8);
 	color: #fff
 }
 
 .service-item .table-prices {
-	width: 34%;
+	width: 45%;
 	float: left;
 	padding: 10px 20px
 }
@@ -444,11 +452,11 @@ font-family: 'Raleway', sans-serif;
 
 .service-item .table-prices td:nth-child(1) {
 	text-align: left;
-	width: 85%
+	width: 80%
 }
 
 .service-item .table-prices td:nth-child(2) {
-	width: 15%
+	width: 20%
 }
 
 .service-item .table-prices p {
@@ -470,17 +478,17 @@ font-family: 'Raleway', sans-serif;
 }
 
 #service-1 .wrap-image {
-	background: url(../img/img-service-01.jpg) center center no-repeat;
+	background: url(../img/service-haircare3.jpg) center center no-repeat;
 	background-size: cover
 }
 
 #service-2 .wrap-image {
-	background: url(../img/img-service-02.jpg) center center no-repeat;
+	background: url(../img/service-haircolor8.jpg) center center no-repeat;
 	background-size: cover
 }
 
 #service-3 .wrap-image {
-	background: url(../img/img-service-03.jpg) center center no-repeat;
+	background: url(../img/service-nailcare1.jpg) center center no-repeat;
 	background-size: cover
 }
 
