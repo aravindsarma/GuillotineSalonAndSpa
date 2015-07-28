@@ -119,8 +119,12 @@
     font-size: 24px;
     line-height: 24px;
   }
-  .slider-wrapper,.logo{
+  .slider-wrapper{
 	  height: 250px;
+  }
+  .logo{
+	  height: 250px;
+	  margin-top: 0%;
   }
   .logo img {
     width: 100%;
