@@ -4,9 +4,9 @@
 	 * CONFIGURATIOM
 	 * ======================================
 	 */
-	$recipient_email = 'your@email.com'; // the email address to receive the contact form.
-	$subject = 'Contact email from mysite.com'; // the subject of the contact email
-	$message = 'Thank you to contact us.'; // thank you message
+	$recipient_email = 'info@guillotinesalonandspa.com'; // the email address to receive the contact form.
+	$subject = 'Contact email for Guillotine Salon & Spa'; // the subject of the contact email
+	$message = 'Thank you for contacting us.'; // thank you message
 	$error_message = 'An error has occured. Please try again'; // error message
 
 	$required = array('message', 'first_name', 'last_name', 'email');
