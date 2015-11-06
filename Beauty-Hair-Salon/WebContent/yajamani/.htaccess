@@ -1,0 +1,6 @@
+ErrorDocument 401 /chapter17/rejection.html
+AuthUserFile narahtaut
+AuthGroupFile /dev/null
+AuthName "Realm-Name"
+AuthType Basic
+require valid-user
