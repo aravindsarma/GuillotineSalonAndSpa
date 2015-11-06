@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+body {background-color:#FFF8DC;}
+h2 {
+	text-align:center;
+	}
+.style {
+	width: 350px
+}
+.designer {
+	width: 140px
+}
+.creativeDesigner {
+	width: 140px
+}
+.masterDesigner {
+	width: 140px
+}
+.expertDesigner {
+	width: 140px
+}
