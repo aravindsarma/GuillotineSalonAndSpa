@@ -1,0 +1,92 @@
+{
+  "stylistImages": {
+    "stylistInfo": [
+      {
+        "imgName": "s00-fitzpatrick-lynne.jpg",
+        "stylistName": "Lynne",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s01-charlotte-u.jpg",
+        "stylistName": "Charlotte",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s01-jamie-g.jpg",
+        "stylistName": "Jamie",
+        "stylistRole": "Expert Designer"
+      },
+	  {
+        "imgName": "s01-jessica-c.jpg",
+        "stylistName": "Jessica C",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s01-kate-g.jpg",
+        "stylistName": "Kate",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s01-maryann-e.jpg",
+        "stylistName": "Maryann E.",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s01-nancy.jpg",
+        "stylistName": "Nancy",
+        "stylistRole": "Expert Designer"
+      },
+      {
+        "imgName": "s02-carissa-b.jpg",
+        "stylistName": "Carissa",
+        "stylistRole": "Master Designer"
+      },
+      {
+        "imgName": "s02-catherine-l.jpg",
+        "stylistName": "Catherine",
+        "stylistRole": "Master Designer"
+      },
+      {
+        "imgName": "s02-valerie-e.jpg",
+        "stylistName": "Valerie",
+        "stylistRole": "Master Designer"
+      },
+      {
+        "imgName": "s02-yvonne-s.jpg",
+        "stylistName": "Yvonne",
+        "stylistRole": "Master Designer"
+      },
+      {
+        "imgName": "s03-gina-stylist.jpg",
+        "stylistName": "Gina",
+        "stylistRole": "Creative Designer"
+      },
+      {
+        "imgName": "s04-marissa-d-stylist.jpg",
+        "stylistName": "Marissa",
+        "stylistRole": "Designer"
+      },
+      {
+        "imgName": "s05-katie-m.jpg",
+        "stylistName": "Katie",
+        "stylistRole": "Esthetician",
+        "stylistRole2": "Massage Therapist"
+      },
+      {
+        "imgName": "s05-renee-w.jpg",
+        "stylistName": "Renee",
+        "stylistRole": "Esthetician"
+      },
+      {
+        "imgName": "s06-gayle-r.jpg",
+        "stylistName": "Gayle",
+        "stylistRole": "Nail Technician"
+      },
+      {
+        "imgName": "s07-carmen-t.jpg",
+        "stylistName": "Carmen",
+        "stylistRole": "Colorist"
+      }
+    ]
+  }
+}
