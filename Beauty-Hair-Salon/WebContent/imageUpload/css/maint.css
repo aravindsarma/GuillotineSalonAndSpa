@@ -1,0 +1,9 @@
+.editImage {
+	background-image: url(../../img/addImage.png);
+	background-size:cover;
+}
+
+/* .editImage:hover {
+	background-image: url(../../img/addImage.png);
+	background-size:cover;
+} */
